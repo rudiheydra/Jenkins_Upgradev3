@@ -36,7 +36,7 @@ public class TestGreeter {
 
     @Test
   public void greetShouldIncludeGreetingMessage() {
-    String someone = "World, From Jenkins Devops!!";
+    String someone = "World, From Jenkins Devops Tutorial on Udemy";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
